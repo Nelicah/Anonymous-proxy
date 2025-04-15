@@ -4,16 +4,56 @@
   padding: 0;
 }
 
+$texttitle1: "Roboto Slab", serif;
+$textandtitles: "Roboto", sans-serif;
+$color2: #ffffff;
+$color1: #000000;
+
+.header {
+  position:sticky;
+  top: 0em;
+  z-index: 1;
+}
+
 .hamburguesa {
   background-color: #0271bc;
   border: solid #0271bc;
   padding: 10px;
 }
 
+/* comienza first */
 .first {
-  border: solid;
-  margin-bottom: 20px;
+  background-image: url('/images/cover.jpeg');
+  height: 100vh;
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -45px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.business_name{
+  font-family: $texttitle1;
+  font-size: 2.625em;
+  text-transform: uppercase;
+  color: $color2;
+}
+
+.phrase {
+  color:$color2;
+  font-family: $textandtitles;
+}
+
+.scroll_down {
+  margin-bottom: -60px;
+  background-color: $color2;
+  padding: 0.925em 0.631em 0.788em 0.688em;
+  border-radius: 50%;
+}
+/* termina first */
 
 .white {
   border: solid;
