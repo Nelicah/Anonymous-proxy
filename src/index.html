@@ -14,11 +14,13 @@
 
   <body>
     <header class="header">
-      <img src="/images/ico-menu.svg" alt="icono menu" class="hamburguesa">
+      <a href="https://adalab.es" class="enlace_hamburguesa">
+        <img src="/images/ico-menu.svg" alt="icono menu" class="hamburguesa">
+      </a>
     </header>
 
     <main>
-      <section class="first">
+      <section class="first" id="hero">
         <article class="hero">
           <h1 class="business_name">anonymous proxy</h1>
           <p class="phrase">In hac habitasse platea dictumst.</p>
@@ -27,6 +29,7 @@
           </a>
         </article>
       </section>
+
       <section class="white">
         <article class="tips">
           <h6 class="insomnia">insomnia tips</h6>
@@ -34,6 +37,7 @@
           <p class="description1">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
         <a href="https://adalab.es/" class="button_go"> go </a>
         </article>
+
       </section> <!--termina white-->
       <section class="blue" id="blue">
           <h3 class="reasons">3 Reasons To Purchase</h3>
@@ -51,6 +55,9 @@
 
     <footer>
       <section class="footer">
+        <a href="#hero" class="button_arrow_up">
+          <img src="/images/ico-arrow.svg" alt="icono para subir a la primera sección" class="arrow_up">
+        </a>
         <nav class="more_information">
           <a href="#">articles</a>
           <a href="#">books</a>
@@ -63,11 +70,11 @@
           <a href="#">instagram</a>
           <a href="#">mastodon.social</a>
         </nav>
+        <div class="copyright_slogan">
         <scan class="copyright">&copy; 2022</scan>
         <scan class="slogan">we &#x1F9E1; components</scan>
+        </div>
       </section>
     </footer>
-
-
   </body>
 </html>
