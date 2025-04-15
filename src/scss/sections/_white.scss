@@ -1,0 +1,67 @@
+$texttitle1: "Roboto Slab", serif;
+$textandtitles: "Roboto", sans-serif;
+$color1: #000000;
+$color2: #ffffff;
+$color3: #f26002;
+$color4: #eff9ff;
+$color5: #304268;
+$colorsecondary: #8ccbea;
+$titlessize: 1.5em; /* 24px */
+$generalsize: 1.125em; /* 18px */
+$lineheightgeneral: 1.875em; /* 30px */
+$littletext: 1em; /* 16px */
+$minitext: 0.875em; /* 14px */
+$tablettitles: 1.625em; /* 26px */
+$tabletcontent: 1.25em; /* 20px */
+
+
+.white {
+  margin-inline: 15px;
+  margin-top: 24.9px;
+  margin-bottom: 45px;
+}
+
+.insomnia {
+  color: $colorsecondary;
+  font-size: 0.875em;
+  text-transform: capitalize;
+  line-height: 1.875em;
+  font-weight: normal;
+}
+
+.window {
+font-size: $titlessize;
+font-family: $texttitle1;
+width: 18ch;
+}
+
+.description1 {
+  font-size: $generalsize;
+  margin-top: 20px;
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+.button_go {
+  border: solid $color3 2px;
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 22.5px;
+  text-decoration: none;
+  color: $color3;
+  text-transform: capitalize;
+  font-size: 1.25em;
+}
+
+/* comienzo de las medias queries */
+@media (min-width: 768px) {
+  .window {
+    font-size: $tablettitles;
+  }
+  .description1 {
+    font-size: $tabletcontent;
+  }
+  .button_go {
+    padding-inline: 30px;
+  }
+}

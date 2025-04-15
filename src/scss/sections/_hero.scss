@@ -1,0 +1,60 @@
+$texttitle1: "Roboto Slab", serif;
+$textandtitles: "Roboto", sans-serif;
+$color1: #000000;
+$color2: #ffffff;
+$color3: #f26002;
+$color4: #eff9ff;
+$color5: #304268;
+$colorsecondary: #8ccbea;
+$titlessize: 1.5em; /* 24px */
+$generalsize: 1.125em; /* 18px */
+$lineheightgeneral: 1.875em; /* 30px */
+$littletext: 1em; /* 16px */
+$minitext: 0.875em; /* 14px */
+$tablettitles: 1.625em; /* 26px */
+$tabletcontent: 1.25em; /* 20px */
+
+.first {
+  background-image: url('/images/cover.jpeg');
+  height: 100vh;
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -45px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.business_name{
+  font-family: $texttitle1;
+  font-size: 2.625em;
+  text-transform: uppercase;
+  color: $color2;
+}
+
+.phrase {
+  color:$color2;
+  font-family: $textandtitles;
+}
+
+.scroll_down {
+  margin-bottom: -60px;
+  background-color: $color2;
+  padding: 0.925em 0.631em 0.788em 0.688em;
+  border-radius: 50%;
+}
+
+/*comienzo de las medias queries */
+@media (min-width: 768px) {
+  .business_name {
+    font-size: 5em;
+  }
+  .phrase {
+    font-size: $titlessize;
+  }
+  .scroll_down {
+    scale: (1.5)
+  }
+}
