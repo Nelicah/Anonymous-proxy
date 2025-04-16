@@ -63,10 +63,10 @@ $tabletcontent: 1.25em; /* 20px */
     grid-template-rows: 1fr 2fr 1fr;
     justify-items: start;
     align-items: normal;
+    justify-items: center;
   }
   .button_arrow_up {
     grid-column: 2 / 3;
-    margin-left: 80px;
   }
   .more_information {
     grid-row: 2;
