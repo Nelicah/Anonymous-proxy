@@ -13,6 +13,7 @@ $littletext: 1em; /* 16px */
 $minitext: 0.875em; /* 14px */
 $tablettitles: 1.625em; /* 26px */
 $tabletcontent: 1.25em; /* 20px */
+$desktoptitles: 2em; /* 32px */
 
 .first {
   background-image: url('/images/cover.jpeg');
@@ -32,6 +33,7 @@ $tabletcontent: 1.25em; /* 20px */
   font-size: 2.625em;
   text-transform: uppercase;
   color: $color2;
+  width: 12ch;
 }
 
 .phrase {
@@ -56,5 +58,11 @@ $tabletcontent: 1.25em; /* 20px */
   }
   .scroll_down {
     scale: (1.5)
+  }
+}
+
+@media (min-width: 1280px) {
+  .business_name {
+    font-size: 6.25em;
   }
 }
