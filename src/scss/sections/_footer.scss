@@ -86,3 +86,11 @@ $desktoptitles: 2em; /* 32px */
     padding-left: 40px;
   }
 }
+
+@media (min-width: 1280px) {
+  .footer {
+    gap: 0px;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+  }
+}
