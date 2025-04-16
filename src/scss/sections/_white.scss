@@ -57,11 +57,24 @@ width: 18ch;
 @media (min-width: 768px) {
   .window {
     font-size: $tablettitles;
+    width: auto;
   }
   .description1 {
     font-size: $tabletcontent;
   }
   .button_go {
     padding-inline: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .insomnia {
+    font-size: $littletext;
+  }
+  .window {
+    font-size: $desktoptitles;
+  }
+  .button_go {
+    padding-inline: 80px;
   }
 }
