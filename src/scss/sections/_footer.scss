@@ -15,6 +15,20 @@ $tablettitles: 1.625em; /* 26px */
 $tabletcontent: 1.25em; /* 20px */
 $desktoptitles: 2em; /* 32px */
 
+/* animate */
+@keyframes slide {
+  0% {
+    transform: translateY(200px);
+  }
+  50% {
+    scale: 2;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* animate */
+
 .footer {
   background-color: $color5;
   display: flex;
@@ -56,6 +70,11 @@ $desktoptitles: 2em; /* 32px */
   border-radius: 50%;
 }
 
+.button_arrow_up {
+  animation-name: slide;
+  animation-duration: 10s;
+}
+
 /*comienzo media queries */
 @media (min-width: 768px) {
   .footer {
@@ -86,30 +105,10 @@ $desktoptitles: 2em; /* 32px */
     padding-left: 40px;
   }
 }
-/* animate */
-@keyframes slide {
-  0% {
-    transform: translateY(200px);
-  }
 
-  50% {
-    scale: 2;
-
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-/* animate */
 @media (min-width: 1280px) {
   .footer {
     grid-template-columns: 165px 165px 165px;
     justify-content: center;
-  }
-  .button_arrow_up {
-    animation-name: slide;
-    animation-duration: 10s;
-
   }
 }
