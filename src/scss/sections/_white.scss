@@ -68,6 +68,9 @@ width: 18ch;
 }
 
 @media (min-width: 1280px) {
+  .white{
+    margin-inline: 275px;
+  }
   .insomnia {
     font-size: $littletext;
   }
