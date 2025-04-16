@@ -128,4 +128,14 @@ $desktoptitles: 2em; /* 32px */
     grid-template-rows: 0.5fr;
     gap: 18px;
   }
+  .morereasons {
+    position: absolute;
+    bottom: -780px;
+    transition: 400ms;
+  }
+  .morereasons:hover {
+    transform: rotate(30deg);
+    background-color: #ffffff;
+    color:#000000;
+  }
 }
