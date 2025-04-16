@@ -116,3 +116,16 @@ $desktoptitles: 2em; /* 32px */
     width: 20ch;
   }
 }
+
+@media (min-width: 1280px) {
+  .reasons {
+    font-size: $desktoptitles;
+    margin-bottom: 43px;
+  }
+  .blue .description2 {
+    align-items: normal;
+    grid-template-columns: 0.9fr;
+    grid-template-rows: 0.5fr;
+    gap: 18px;
+  }
+}
