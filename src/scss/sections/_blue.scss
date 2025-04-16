@@ -47,6 +47,7 @@ $tabletcontent: 1.25em; /* 20px */
 .comment3 {
   font-size: $generalsize;
   margin-bottom: 44px;
+  
 }
 
 .morereasons {
@@ -106,4 +107,10 @@ $tabletcontent: 1.25em; /* 20px */
   width: 210px;
   margin-left: 40px;
  }
+}
+
+@media (min-width: 970px) and (max-width: 1150px) {
+  .comment3 {
+   
+  }
 }
