@@ -52,6 +52,7 @@ $desktoptitles: 2em; /* 32px */
 @media (min-width: 768px) {
   .business_name {
     font-size: 5em;
+    margin-bottom: 20px;
   }
   .phrase {
     font-size: $titlessize;

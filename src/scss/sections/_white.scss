@@ -55,6 +55,9 @@ width: 18ch;
 
 /* comienzo de las medias queries */
 @media (min-width: 768px) {
+  .white{
+    margin-inline: 39px;
+  }
   .window {
     font-size: $tablettitles;
     width: auto;
