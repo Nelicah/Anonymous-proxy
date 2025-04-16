@@ -72,7 +72,9 @@ width: 18ch;
 
 @media (min-width: 1280px) {
   .white{
+    margin-block: 65px;
     margin-inline: 275px;
+    height: 300px;
   }
   .insomnia {
     font-size: $littletext;
@@ -81,6 +83,14 @@ width: 18ch;
     font-size: $desktoptitles;
   }
   .button_go {
+    position: absolute;
+    bottom: -300px;
     padding-inline: 80px;
+    transition: transform 350ms;
   }
+  .button_go:hover {
+    color: black;
+    background-color: $color5;
+    transform: scaley(2);
+   }
 }
