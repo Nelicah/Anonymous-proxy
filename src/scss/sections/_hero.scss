@@ -1,25 +1,10 @@
-$texttitle1: "Roboto Slab", serif;
-$textandtitles: "Roboto", sans-serif;
-$color1: #000000;
-$color2: #ffffff;
-$color3: #f26002;
-$color4: #eff9ff;
-$color5: #304268;
-$colorsecondary: #8ccbea;
-$titlessize: 1.5em; /* 24px */
-$generalsize: 1.125em; /* 18px */
-$lineheightgeneral: 1.875em; /* 30px */
-$littletext: 1em; /* 16px */
-$minitext: 0.875em; /* 14px */
-$tablettitles: 1.625em; /* 26px */
-$tabletcontent: 1.25em; /* 20px */
-$desktoptitles: 2em; /* 32px */
+@use "./variables" as *;
 
 .first {
-  background-image: url('/images/cover.jpeg');
+  background-image: url("/images/cover.jpeg");
   height: 100vh;
-  position:relative;
-  display:flex;
+  position: relative;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -28,7 +13,7 @@ $desktoptitles: 2em; /* 32px */
   background-repeat: no-repeat;
 }
 
-.business_name{
+.business_name {
   font-family: $texttitle1;
   font-size: 2.625em;
   text-transform: uppercase;
@@ -37,7 +22,7 @@ $desktoptitles: 2em; /* 32px */
 }
 
 .phrase {
-  color:$color2;
+  color: $color2;
   font-family: $textandtitles;
 }
 
@@ -58,7 +43,7 @@ $desktoptitles: 2em; /* 32px */
     font-size: $titlessize;
   }
   .scroll_down {
-    scale: (1.5)
+    scale: (1.5);
   }
 }
 

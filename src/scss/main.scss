@@ -1,7 +1,8 @@
-@use './sections/hero' ;
-@use './sections/white' ;
-@use './sections/blue' ;
-@use './sections/footer' ;
+@use "./sections/hero";
+@use "./sections/white";
+@use "./sections/blue";
+@use "./sections/footer";
+@use "./sections/variables" as *;
 
 * {
   box-sizing: border-box;
@@ -9,30 +10,13 @@
   padding: 0;
 }
 
-$texttitle1: "Roboto Slab", serif;
-$textandtitles: "Roboto", sans-serif;
-$color1: #000000;
-$color2: #ffffff;
-$color3: #f26002;
-$color4: #eff9ff;
-$color5: #304268;
-$colorsecondary: #8ccbea;
-$titlessize: 1.5em; /* 24px */
-$generalsize: 1.125em; /* 18px */
-$lineheightgeneral: 1.875em; /* 30px */
-$littletext: 1em; /* 16px */
-$minitext: 0.875em; /* 14px */
-$tablettitles: 1.625em; /* 26px */
-$tabletcontent: 1.25em; /* 20px */
-$desktoptitles: 2em; /* 32px */
-
 :root {
   font-family: $textandtitles;
   color: $color1;
 }
 
 .header {
-  position:sticky;
+  position: sticky;
   top: 0em;
   z-index: 1;
 }
