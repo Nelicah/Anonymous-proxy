@@ -24,4 +24,4 @@ El sitio está desplegado en GitHub Pages, el enlace está disponible en el apar
 
 ---
 
---> Nelicah &copy <--
+--> Nelicah &copy; <--
