@@ -1,4 +1,4 @@
-#🌐 Anonymous Proxy
+# 🌐 Anonymous Proxy
 
 ¡Bienvenido al proyecto Anonymous Proxy! Esto es un sitio web frontend diseñado con un enfoque en la maquetación moderna, la accesibilidad y las animaciones sutiles para ofrecer una experiencia de usuario atractiva y dinámica.
 
