@@ -2,7 +2,7 @@
 
 ¡Bienvenido al proyecto Anonymous Proxy! Esto es un sitio web frontend diseñado con un enfoque en la maquetación moderna, la accesibilidad y las animaciones sutiles para ofrecer una experiencia de usuario atractiva y dinámica.
 
-Este proyecto está principalmente hecho con HTML y SCSS (con Flexbox y Grid) organizado en diferentes archivos para lograr un diseño completamente responsivo y fácil de mantener. El diseño está traladado/traducido desde Zeplin.
+Este proyecto está principalmente hecho con HTML y SCSS (con Flexbox y Grid) organizado en diferentes archivos para lograr un diseño completamente responsivo y fácil de mantener. El diseño está trasladado/traducido desde Zeplin.
 
 ---
 
